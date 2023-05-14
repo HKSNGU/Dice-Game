@@ -1,0 +1,146 @@
+body {
+  font-family: 'Bruno Ace SC', cursive;
+  background-color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin: 2% auto;
+  font-size: 4rem;
+  color: #080e0c;
+  text-shadow: 0 0 5px #232931;
+}
+
+.main-container{
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  margin: auto;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+.dice {
+  display: inline-block;
+  margin: 7%;
+  filter : drop-shadow(20px 20px 20px grey);
+}
+
+p {
+  font-size: 2rem;
+  color: #080e0c;
+  margin-top: 0;
+}
+
+img {
+  width: 70%;
+}
+
+.playAgain{
+  background-color: #fff;
+  color: grey;
+  font-weight: 900;
+  border-style: none;
+  border-radius: 50px;
+  box-shadow: 0 0 5px grey;
+  padding: 10px 30px;
+  margin: 3% auto;
+}
+
+footer {
+  background-color: #080e0c;
+  color: #EEEEEE;
+  text-align: center;
+  padding: 1% 0;
+  position: fixed;
+  bottom: 0px;
+  width: 100% ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px){
+  h1 {
+    margin: 5% auto;
+    font-size: 2rem;
+  }
+  .main-container {
+    width: 75%;
+  }
+  .dice {
+    display: block;
+    margin: 12%;
+    filter : drop-shadow(10px 10px 10px grey);
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  img {
+    width: 40%;
+  }
+  .playAgain{
+    margin: 10% auto;
+  }
+  footer{
+    padding: 5% 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px){
+  h1 {
+    margin: 2% auto;
+    font-size: 2rem;
+  }
+  .playAgain{
+    margin: 10% auto;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  img {
+    width: 60%;
+  }
+  .playAgain{
+    margin: 10% auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 950px){
+  h1 {
+    margin: 2% auto;
+    font-size: 2rem;
+  }
+  .playAgain{
+    margin: 10% auto;
+  }
+  p {
+    font-size: 3rem;
+  }
+  img {
+    width: 60%;
+  }
+  .playAgain{
+    margin: 10% auto;
+  }
+}
+
